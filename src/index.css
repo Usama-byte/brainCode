@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'PlusKakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlusKakartaSans';
+  src: url('./assets/fonts/PlusJakartaSans-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'PlusKakartaSans', sans-serif !important;
+  background: #f8f9fb;
+  overflow-x: hidden;
+}

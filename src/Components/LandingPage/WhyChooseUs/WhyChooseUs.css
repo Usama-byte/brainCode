@@ -1,0 +1,9 @@
+.whyChooseUs-bg {
+    background-image: url('../../../assets/images/choosebg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}

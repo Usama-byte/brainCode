@@ -1,0 +1,19 @@
+.banner-bg {
+    background-image: url("../../../assets/images/mainbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .circle-img {
+    animation: rotate 5s linear infinite;
+  }

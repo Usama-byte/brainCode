@@ -1,0 +1,46 @@
+.card-wrapper {
+    border: 1px solid #D0D5DD;
+    border-radius: 12px !important;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.card-wrapper:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 2.08px 0px #02102C14, 0px 16.66px 93.74px 0px #02102C1F;
+    border: 1px solid transparent;
+}
+
+.card-wrapper .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #1D2939;
+    border-radius: 50%;
+    margin-right: 10px !important;
+    transition: width 0.3s, height 0.3s;
+}
+
+.card-wrapper:hover .dot {
+    width: 18px;
+    height: 18px;
+}
+
+.card-wrapper .title {
+    color: #3A3A3A;
+    font-size: 32px;
+    font-weight: 500 !important;
+    line-height: 45px;
+    transition: color 0.3s, font-weight 0.2s;
+}
+
+
+.card-wrapper:hover .title {
+    color: #2171E4;
+    font-weight: 600 !important;
+}
+
+.desc {
+    font-weight: 300 !important;
+    line-height: 25px;
+    color: #667085;
+    margin: 1rem 0rem !important;
+}
